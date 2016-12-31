@@ -14,6 +14,10 @@ $(window).load(function() {
   var start = $('#main-section').offset().top - 50;
   var navbar = $('.navbar-inverse');
 
+  $(window).resize() {
+    start = $('#main-section').offset().top - 50;
+  }
+
   doc.on('scroll', function() {
     pos = doc.scrollTop();
     if (pos >= start) {
