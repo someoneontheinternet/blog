@@ -18,12 +18,20 @@
   <div class="banner">
 
     <div class="banner-background">
-      <h2 class="banner-title pre">The Title</h2>
-      <h5 class="banner-subtitle pre">The subtitle</h5>
+      <div class="title-container">
+        <h2 class="banner-title pre">The Title</h2>
+        <h5 class="banner-subtitle pre">The subtitle</h5>
+      </div>
+      <div class="title-position pre">
+        <div class="title-button">
+          <button class="button button-info" name="create-post">Create a post today</button>
+          <button class="button button-warning" name="sign-up">Sign up</button>
+        </div>
+      </div>
       <span class="banner-scrolldown pre glyphicon glyphicon-menu-down"></span>
     </div>
 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar pre navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
 
@@ -42,17 +50,37 @@
         <div class="collapse navbar-collapse" id="navbar-top-toggle">
 
           <ul class="nav navbar-nav navbar-center">
-            <li class="m-before"></li>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Profile</a></li>
-            <li><a href="#">Subscriptions</a></li>
-            <li><a href="#">About</a></li>
-            <li class="m-after"></li>
+            <li>
+              <a href="#">Home</a>
+              <div class="bar"></div>
+            </li>
+            <li>
+              <a href="#">Profile</a>
+              <div class="bar"></div>
+            </li>
+            <li>
+              <a href="#">Subscriptions</a>
+              <div class="bar"></div>
+            </li>
+            <li>
+              <a href="#">Mine</a>
+              <div class="bar"></div>
+            </li>
+            <li>
+              <a href="#">About</a>
+              <div class="bar"></div>
+            </li>
           </ul>
 
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Login</a></li>
-            <li><a href="#">Sign up</a></li>
+            <li>
+              <a href="#">Login</a>
+              <div class="bar"></div>
+            </li>
+            <li>
+              <a href="#">Sign up</a>
+              <div class="bar"></div>
+            </li>
           </ul>
         </div>
 
@@ -136,6 +164,8 @@
 
     </div>
 
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
     <div class="page-finder">
       <nav aria-label="Page navigation">
         <ul class="pagination">
@@ -195,6 +225,7 @@
 <footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
   <script src="./main.js"></script>
 </footer>
 </html>
